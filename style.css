@@ -1,0 +1,307 @@
+html {
+
+    scroll-behavior: smooth;
+    zoom: 85%;
+}
+
+#corpo {
+
+    background-image: url("https://i.pinimg.com/originals/4a/96/e6/4a96e602750b8ef669a77565becf3939.gif");
+
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho {
+    
+    background-image: url("https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/dataimagejpegbase649j4AAQSkZJRgABAQAAAQABAAD2wBDAA-d619efaf32fcfa4edbcc53bfc8bfbc00.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 6px solid black;
+    color: white;
+
+    font-family: "Belanosima", sans-serif;
+    font-size: x-large;
+
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+
+    text-shadow: 4px 4px black;
+}
+
+#navegacao {
+    
+    background-image: url("https://i.gifer.com/3qpj.gif");
+    background-size: contain;
+    background-position: center;
+    border-bottom: 4px solid black;;
+
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: x-large;
+
+    padding: 15px;
+    margin: 0;  
+    text-align: center;
+
+    text-shadow: 2px 2px black;
+}
+
+
+#info {
+
+    line-height: 1.8;
+
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    
+}
+
+details {
+    box-sizing: border-box;
+}
+
+#bloco1 {
+
+    border: 5px dashed black;
+
+    line-height: 1.8;
+
+    max-width: 1000px;
+    margin: 20px auto;
+    margin-bottom: 5rem;
+    padding: 20px;
+    background-color: pink;
+
+}
+
+#bloco1:hover {
+    box-shadow: 5px 5px green;
+}
+
+#foto_bloco1 {
+    max-width: 100%;
+    height: auto;
+
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+    border-radius: 10%;
+    border: 4px solid black;
+
+    height: 500px;
+
+    transition: width 2s;
+    transition-delay: 2s;
+}
+
+#foto_bloco1:hover {
+    width: 50%;
+    height: 50%;
+}
+
+#bloco2 {
+
+    border: 5px dashed black;
+
+    line-height: 1.8;
+
+    max-width: 1000px;
+    margin: 20px auto;
+    margin-bottom: 5rem;
+    padding: 20px;
+    background-color: aquamarine;
+
+}
+
+#bloco2:hover {
+    box-shadow: 5px 5px coral;
+}
+
+#foto_bloco2 {
+    max-width: 100%;
+    height: auto;
+
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+    border-radius: 10%;
+    border: 4px solid black;
+
+    height: 400px;
+
+}
+
+#foto_bloco2:hover {
+    width: 50%;
+    height: 50%;
+}
+
+#bloco3 {
+
+    border: 5px dashed black;
+
+    line-height: 1.8;
+
+    max-width: 1000px;
+    margin: 20px auto;
+    margin-bottom: 5rem;
+    padding: 20px;
+    background-color: greenyellow;
+
+}
+
+#bloco3:hover {
+    box-shadow: 5px 5px fuchsia;
+}
+
+#lista_programacao {
+    list-style-type: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#foto_bloco3 {
+    max-width: 100%;
+    height: auto;
+
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+    border-radius: 25%;
+    border: 4px solid black;
+
+    height: 400px;
+
+}
+
+#foto_bloco3:hover {
+    width: 50%;
+    height: 50%;
+}
+
+#bloco4 {
+
+    border: 5px dashed black;
+
+    line-height: 1.8;
+
+    max-width: 1000px;
+    margin: 20px auto;
+    margin-bottom: 5rem;
+    padding: 20px;
+    background-color: azure;
+
+}
+
+#bloco4:hover {
+    box-shadow: 5px 5px grey;
+}
+
+#bloco5 {
+
+    border: 5px dashed black;
+
+    line-height: 1.8;
+
+    max-width: 1000px;
+    margin: 20px auto;
+    margin-bottom: 5rem;
+    padding: 20px;
+    background-color: cyan;
+
+}
+
+#bloco5:hover {
+    box-shadow: 5px 5px crimson;
+}
+
+#bloco6 {
+
+    border: 5px dashed black;
+
+    line-height: 1.8;
+
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: gold;
+
+}
+
+#bloco6:hover {
+    box-shadow: 5px 5px purple;
+}
+
+.direcionador {
+    text-decoration-line: none;
+    color: white;
+}
+
+.direcionador:hover {
+    font-size: 200%;
+}
+
+.secao {
+
+    font-family: "Poppins", sans-serif;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+
+    text-align: center;
+
+    text-decoration-line: underline;
+
+}
+
+.secao:hover {
+    font-size: 175%;
+}
+
+.texto {
+
+    font-family: "Rubik", sans-serif;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.links {
+    text-decoration-line: none;
+}
+
+#rodape {
+
+    background-image: url("https://www.ufpe.br/documents/39026/48836/CIN+-+Principal/37042fe8-a1f9-4103-83d8-1327d678b3e5?t=1480530239090");
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+
+    padding: 25px;
+    margin: 0;
+    line-height: 0.5;
+
+    border-top: 5px solid black;
+
+    text-align: center;
+
+    text-shadow: 4px 4px black;
+    
+    color: white;
+}
